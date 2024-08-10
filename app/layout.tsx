@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "The Next Step in Evolution [VIP]",
-  description: "Сегодня проститутки Питера работают со скидками! Более 5000 проверенных индивидуалок с реальными фото. Наши путаны и индивидуалки примут Вас круглосуточно в любом районе Санкт-Петербурга",
+  description: ">>> Are You Ready? :Watch Incredible Video >>>",
 };
 
 export default function RootLayout({
