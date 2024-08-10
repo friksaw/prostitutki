@@ -57,7 +57,7 @@ const FractalCanvas: React.FC = () => {
         animate();
 
         // Cleanup
-        return () => clearTimeout();
+        return;
     }, []);
 
     return <canvas ref={canvasRef} height={14} width={20} style={{ position: 'absolute' }}></canvas>;
