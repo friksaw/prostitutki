@@ -1,3 +1,4 @@
+
 .header {
 
 
@@ -102,5 +103,37 @@
 
 
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px; /* Adjust as needed */
+}
 
+.s {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-left: 10px ridge transparent;
+    border-right: 10px ridge transparent;
+    border-radius: 25%;
+    transform: scale(0.25) rotate(0deg);
+    animation: infinity 12s ease-in-out infinite;
+}
 
+@keyframes infinity {
+    25% {
+        transform: scale(4) rotate(180deg);
+    }
+}
+
+/* Generating unique colors for each shape */
+.s:nth-child(1) {
+    animation-delay: calc(1 * 3s / 48);
+    border-color: hsla(0, 100%, 50%, 1);
+}
+
+.s:nth-child(2) {
+    animation-delay: calc(2 * 3s / 48);
+    border-color: hsla(230, 100%, 50%, 1);
+}
