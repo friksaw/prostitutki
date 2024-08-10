@@ -16,7 +16,7 @@ const FLIP_TRANSITION_END_EVENT = "flip-transition-end";
 export default function MainCard(callback: () => void, flipId: string) {
  return (
      <div className={styles.container}>
-
+         <div className={styles.s}></div>
          <div className={styles.s}></div>
          <div className={styles.s}></div>
      </div>

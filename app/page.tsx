@@ -89,7 +89,7 @@ export default function Home() {
             </span>
             </h2>
             <p className="m-0 max-w-[30ch] text-sm opacity-50">
-              Rest assured with Kaspersky's state-of-the-art security ensuring your privacy.
+              Rest assured with Kaspersky&apos;s state-of-the-art security ensuring your privacy.
             </p>
           </a>
           <a
