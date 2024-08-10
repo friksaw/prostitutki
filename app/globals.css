@@ -27,6 +27,25 @@ body {
   cursor: crosshair;
 }
 
+h2, p {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.4);
+  -webkit-text-stroke: 0.08rem blue;
+}
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  -webkit-text-stroke: 0.08rem blue;
+}
+p {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  -webkit-text-stroke: 0.08rem blue;
+}
 
 a {
   cursor: pointer;
