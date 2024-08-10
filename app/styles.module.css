@@ -1,0 +1,50 @@
+.header {
+
+
+    .headerAreUReady {
+
+    }
+
+
+}
+
+
+.codeLink,
+.codeRed,
+.code {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.4);
+    color: chartreuse;
+    -webkit-text-stroke: 0.08rem blue;
+}
+
+.codeLink {
+    text-decoration: underline;
+    font-weight: normal;
+    text-decoration-color: blue;
+}
+
+.codeRed {
+    color: red;
+}
+
+.codeH1 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.sales {
+    background-color: chartreuse;
+    padding: 4px 8px;
+    margin-top: 8px;
+}
+
+
+
+
+
+
